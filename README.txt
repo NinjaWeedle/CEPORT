@@ -5,15 +5,20 @@ I HIGHLY reccommend backing up your program before converting- Use at your own r
 
 Only correctly formatted Text( commands will be converted.
 
-Also, this doesn't work right if you have a Text command followed by more text commands on the same line separated by ":", as only the first Text command on a line is modified.
+Also, this doesn't work right if on the same line you have a Text command followed by more text commands on the same line separated by ":", as only the first Text command on a line is modified.
 
+COMMANDS THAT ARE MODIFIED:
 
-
+Text( (Including large font)
+Pxl-On(
+Pxl-Off(
+Pxl-Change(
+Pxl-Test(
 
 REQUIREMENTS:
 
 Celtic III MUST be installed!
-The program you want to convert must be in RAM and unlocked
+The program you want to convert must be in RAM and unlocked.
 
 
 
@@ -26,7 +31,4 @@ B- Location of second comma in string
 Str2 - Xcoordinate
 Str3 - Y coordinate
 
-FOrum topic name: CEPORT: An on-calc tool for porting TI-BASIC prgms to CE/CSE
-
-
-10/1/2021 Oxiti8.
+10/2/2021 Oxiti8.
