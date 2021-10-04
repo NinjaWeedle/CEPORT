@@ -1,15 +1,16 @@
 CEPORT - An on-calc utility for porting your 83+/84+ TI-BASIC programs to the CSE/CE
 
-This program will convert a TI-BASIC program made for the monochrome 83+/84+ to the TI-84+ CE.
-I HIGHLY reccommend backing up your program before converting- Use at your own risk!
+This program will convert a TI-BASIC program made for the monochrome 83+/84+ to look correct on a TI-84+ CSE and TI-84+ CE.
 
-Only correctly formatted Text( commands will be converted.
+HOW TO USE:
+1. Install Celtic III. An app version of Celtic III is included for your convenience.
 
-Also, this doesn't work right if on the same line you have a Text command followed by more text commands on the same line separated by ":", as only the first Text command on a line is modified.
+Only correctly formatted Text( and Pxl commands will be converted. (Correctly formatted meaning having both X and Y coordinates and having Text( or one of the Pxl commands being the first token on a line)
+
 
 COMMANDS THAT ARE MODIFIED:
 
-Text( (Including large font)
+Text( (Including the large font variation that uses -1)
 Pxl-On(
 Pxl-Off(
 Pxl-Change(
@@ -18,17 +19,9 @@ Pxl-Test(
 REQUIREMENTS:
 
 Celtic III MUST be installed!
-The program you want to convert must be in RAM and unlocked.
+The program you want to convert must be in RAM and unlocked. Attempting to convert archived programs may result in a crash!
 
 
+WARNING: With assembly libraries, there is always a small chance of a crash occuring. If you want to be safe, back up the program you want to convert to a computer before you run CEPORT.
 
-Str0 - Stores the program name
-Str1 - stores the contents current program line being read
-G - The current line being read
-F - The total number of lines in the program being read.
-A- Location of first comma in string
-B- Location of second comma in string
-Str2 - Xcoordinate
-Str3 - Y coordinate
-
-10/2/2021 Oxiti8.
+2021 Oxiti8.
