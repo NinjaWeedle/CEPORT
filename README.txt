@@ -1,4 +1,4 @@
-CEPORT V2.1 - An on-calc utility for porting your 83+/84+ TI-BASIC programs to the CSE/CE
+CEPORT V2.2 - An on-calc utility for porting your 83+/84+ TI-BASIC programs to the CSE/CE
 
 This program will convert a TI-BASIC program made for the monochrome 83+/84+ to look correct on a TI-84+ CSE and TI-84+ CE.
 
