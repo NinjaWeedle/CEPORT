@@ -1,10 +1,12 @@
-CEPORT V2.2 - An on-calc utility for porting your 83+/84+ TI-BASIC programs to the CSE/CE
+CEPORT CE 1.0 - An on-calc utility for for porting monochrome 83+/84+ TI-BASIC programs to the CSE/CE
 
 This program will convert a TI-BASIC program made for the monochrome 83+/84+ to look correct on a TI-84+ CSE and TI-84+ CE.
 
+This is a port of CEPORT to the CE. It will not run correctly on monochrome calcs, the TI-84 Plus CE Silver Edition, or on CEs with OS 5.2 or lower.
+
 HOW TO USE:
-1. Install Celtic III. An app version of Celtic III is included for your convenience. (WARNING FOR DOORS USERS: USING THE CELTIC III LIBS INCLUDED IN DOORSCS7 WILL CAUSE THIS PROGRAM TO RUN EXPONENTIALLY SLOWER!)
-2. Open CEPORT.
+1. Install Celtic CE. To get it, go here: bit.ly/CelticCE
+2. Open CEPORTCE.
 
 You'll then need to enter the name of the program you want to convert. Once you've entered it, press enter. After that, just wait for the conversion to complete- The number in the bottom left represents the percentage of the conversion completed.
 
@@ -22,10 +24,10 @@ Pxl-Test(
 
 REQUIREMENTS:
 
-Celtic III MUST be installed for automatic conversion!
+Celtic CE MUST be installed for automatic conversion!
 The program you want to convert must be in RAM and unlocked. Attempting to convert archived programs may result in a crash!
 
 
-WARNING: With assembly libraries, there is always a small chance of a crash occuring. If you want to be safe, back up the program you want to convert to a computer before you run CEPORT.
+WARNING: With assembly libraries, there is always a small chance of a crash occuring. If you want to be safe, back up the program you want to convert to a computer before you run CEPORTCE.
 
-2021 Oxiti8.
+2022 Oxiti8.
