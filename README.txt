@@ -24,10 +24,12 @@ Pxl-Test(
 
 REQUIREMENTS:
 
-Celtic CE MUST be installed for automatic conversion!
+Celtic CE MUST be installed for conversion!
 The program you want to convert must be in RAM and unlocked. Attempting to convert archived programs may result in a crash!
 
 
 WARNING: With assembly libraries, there is always a small chance of a crash occuring. If you want to be safe, back up the program you want to convert to a computer before you run CEPORTCE.
 
 2022 Oxiti8.
+
+Big thanks to mr womp womp for help with optimization.
